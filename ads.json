@@ -1,0 +1,18 @@
+{
+  "ads": [
+    {
+      "player": "Kael",
+      "title": "Vendo Fenrir lv 26",
+      "description": "Usado somente para passeios",
+      "value": "1.2BI",
+      "imageUrl": "ads/kael-fenrir.avif"
+    },
+    {
+      "player": "Kael",
+      "title": "Compro cash",
+      "description": "Contato ingame",
+      "value": "90KK cada 10",
+      "imageUrl": "ads/kael-cash.avif"
+    }
+  ]
+}
