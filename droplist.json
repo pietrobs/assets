@@ -1,0 +1,161 @@
+[
+  {
+    "id": "amago_porco",
+    "name": "Âmago de Porco",
+    "imageUrl": "items/amago_porco.png",
+    "grade": "Mortal",
+    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+    "extra": {},
+    "drops": [
+      {
+        "originType": "Monster",
+        "monsterName": "Porco",
+        "monsterType": "Normal",
+        "map": "Erion",
+        "dropRate": "Unknown"
+      }
+    ]
+  },
+  {
+    "id": "vela_coveiro",
+    "name": "Vela do Coveiro",
+    "imageUrl": "items/vela_coveiro.png",
+    "grade": "Mortal",
+    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+    "extra": {},
+    "drops": [
+      {
+        "originType": "Monster",
+        "monsterName": "Porco",
+        "monsterType": "Normal",
+        "map": "Erion",
+        "dropRate": "Unknown"
+      }
+    ]
+  },
+  {
+    "id": "ovo_porco",
+    "name": "Ovo de Porco",
+    "imageUrl": "items/ovo_porco.png",
+    "grade": "Mortal",
+    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+    "extra": {},
+    "drops": [
+      {
+        "originType": "Monster",
+        "monsterName": "Porco",
+        "monsterType": "Normal",
+        "map": "Erion",
+        "dropRate": "Unknown"
+      }
+    ]
+  },
+  {
+    "id": "resto_oriharukon",
+    "name": "Resto de Oriharukon",
+    "imageUrl": "items/resto_oriharukon.png",
+    "grade": "Mortal",
+    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+    "extra": {},
+    "drops": [
+      {
+        "originType": "Monster",
+        "monsterName": "Troll",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Troll Caçador",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Dragão Menor",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Meio Orc",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Orc Cavaleiro",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Orc Arqueiro",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Troll Caótico",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Troll Degen",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Troll Caído",
+        "monsterType": "Normal",
+        "map": "Erion"
+      }
+    ]
+  },
+  {
+    "id": "cristal_3",
+    "name": "Cristal III",
+    "imageUrl": "items/cristal_3.png",
+    "grade": "Mortal",
+    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+    "extra": {},
+    "drops": [
+      {
+        "originType": "Monster",
+        "monsterName": "Dragão Menor",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Meio Orc",
+        "monsterType": "Normal",
+        "map": "Erion"
+      },
+      {
+        "originType": "Monster",
+        "monsterName": "Orc Cavaleiro",
+        "monsterType": "Normal",
+        "map": "Erion"
+      }
+    ]
+  },
+  {
+    "id": "cristal_4",
+    "name": "Cristal IV",
+    "imageUrl": "items/cristal_4.png",
+    "grade": "Mortal",
+    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+    "extra": {},
+    "drops": [
+      {
+        "originType": "Monster",
+        "monsterName": "Orc Arqueiro",
+        "monsterType": "Normal",
+        "map": "Erion"
+      }
+    ]
+  }
+]
