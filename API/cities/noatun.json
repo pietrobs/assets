@@ -11,7 +11,9 @@
         { "itemId": "luva_teia" },
         { "itemId": "luva_embutida" },
         { "itemId": "luva_mytril" },
-        { "itemId": "luva_elemental" }
+        { "itemId": "luva_elemental" },
+        { "itemId": "poeira_de_ori" },
+        { "itemId": "poeira_de_lac" }
       ]
     }
   }

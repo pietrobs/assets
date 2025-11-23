@@ -17,6 +17,16 @@
       "imageUrl": "items/resto_de_lac.avif"
     },
     {
+      "id": "poeira_de_ori",
+      "name": "Resto de Oriharukon",
+      "imageUrl": "items/poeira_de_ori.avif"
+    },
+    {
+      "id": "poeira_de_lac",
+      "name": "Resto de Lactolerium",
+      "imageUrl": "items/poeira_de_lac.avif"
+    },
+    {
       "id": "classe_d",
       "name": "Classe D",
       "imageUrl": "items/replation_d.avif"

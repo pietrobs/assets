@@ -167,6 +167,12 @@
         },
         {
           "itemId": "luva_elemental"
+        },
+        {
+          "itemId": "poeira_de_ori"
+        },
+        {
+          "itemId": "poeira_de_lac"
         }
       ],
       "defaultMapId": "noatun"
@@ -236,6 +242,28 @@
         {
           "monsterId": "pergorgon",
           "mapId": "lan N"
+        }
+      ]
+    },
+    {
+      "id": "poeira_de_ori",
+      "name": "Resto de Oriharukon",
+      "imageUrl": "items/poeira_de_ori.avif",
+      "drops": [
+        {
+          "monsterId": "tauron",
+          "mapId": "noatun"
+        }
+      ]
+    },
+    {
+      "id": "poeira_de_lac",
+      "name": "Resto de Lactolerium",
+      "imageUrl": "items/poeira_de_lac.avif",
+      "drops": [
+        {
+          "monsterId": "tauron",
+          "mapId": "noatun"
         }
       ]
     },
