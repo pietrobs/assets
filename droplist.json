@@ -370,6 +370,8 @@
       "id": "luva_teia",
       "name": "Luva Teia",
       "imageUrl": "items/luva_teia.avif",
+      "grade": "Mortal",
+      "classes": "Huntress",
       "drops": [
         {
           "monsterId": "tauron",
@@ -381,6 +383,8 @@
       "id": "luva_embutida",
       "name": "Luva Embutida",
       "imageUrl": "items/luva_embutida.avif",
+      "grade": "Mortal",
+      "classes": "TransKnight",
       "drops": [
         {
           "monsterId": "tauron",
@@ -392,6 +396,8 @@
       "id": "luva_mytril",
       "name": "Luva Mytril",
       "imageUrl": "items/luva_mytril.avif",
+      "grade": "Mortal",
+      "classes": "Foema",
       "drops": [
         {
           "monsterId": "tauron",
@@ -403,6 +409,8 @@
       "id": "luva_elemental",
       "name": "Luva Elemental",
       "imageUrl": "items/luva_elemental.avif",
+      "grade": "Mortal",
+      "classes": "Beast Master",
       "drops": [
         {
           "monsterId": "tauron",
