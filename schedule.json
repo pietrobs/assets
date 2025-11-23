@@ -1,0 +1,26 @@
+{
+  "servers": {
+    "balerion": {
+      "name": "WYD Balerion",
+      "logo": "https://pietrobs.github.io/assets/logo.png",
+      "url": "https://wydbalerion.com",
+      "schedule": [
+        {
+          "id": "boss",
+          "channel_id": "1442138098002821152",
+          "includeGreeting": true,
+          "schedule_time": "15:30",
+          "days_of_week": ["TUE", "MON", "FRI", "WED", "THU"],
+          "title": "Hora da batalha",
+          "description": "O monstro Tauron nasceu no deserto de Noatun e está cheio de recompensas para quem derrota-lo.",
+          "image_url": "https://pietrobs.github.io/assets/monsters/tauron.avif",
+          "extra_fields": {
+            "Droplist": "Caixa de Armas D | Barra de 50KK",
+            "Local": "Deserto de Noatun",
+            "Horário": "12:00"
+          }
+        }
+      ]
+    }
+  }
+}
