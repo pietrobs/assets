@@ -1,0 +1,18 @@
+{
+  "id": "noatun",
+  "name": "Noatun",
+  "imageUrl": "maps/noatun.avif",
+  "monsters": {
+    "tauron": {
+      "name": "Tauron",
+      "type": "Normal",
+      "imageUrl": "monsters/tauron.avif",
+      "itemDrops": [
+        { "itemId": "luva_teia" },
+        { "itemId": "luva_embutida" },
+        { "itemId": "luva_mytril" },
+        { "itemId": "luva_elemental" }
+      ]
+    }
+  }
+}

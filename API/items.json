@@ -45,6 +45,26 @@
       "id": "barra_prata_10kk",
       "name": "Barra de Prata(10Mi)",
       "imageUrl": "items/barra_de_prata.avif"
+    },
+    {
+      "id": "luva_teia",
+      "name": "Luva Teia",
+      "imageUrl": "items/luva_teia.avif"
+    },
+    {
+      "id": "luva_embutida",
+      "name": "Luva Embutida",
+      "imageUrl": "items/luva_embutida.avif"
+    },
+    {
+      "id": "luva_mytril",
+      "name": "Luva Mytril",
+      "imageUrl": "items/luva_mytril.avif"
+    },
+    {
+      "id": "luva_elemental",
+      "name": "Luva Elemental",
+      "imageUrl": "items/luva_elemental.avif"
     }
   ]
 }

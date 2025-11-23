@@ -7,6 +7,10 @@
     "lan N": {
       "name": "Lan N",
       "imageUrl": "maps/lan.avif"
+    },
+    "noatun": {
+      "name": "Noatun",
+      "imageUrl": "maps/noatun.avif"
     }
   },
   "monsters": {
@@ -146,6 +150,26 @@
         }
       ],
       "defaultMapId": "lan N"
+    },
+    "tauron": {
+      "name": "Tauron",
+      "type": "Normal",
+      "imageUrl": "monsters/tauron.avif",
+      "itemDrops": [
+        {
+          "itemId": "luva_teia"
+        },
+        {
+          "itemId": "luva_embutida"
+        },
+        {
+          "itemId": "luva_mytril"
+        },
+        {
+          "itemId": "luva_elemental"
+        }
+      ],
+      "defaultMapId": "noatun"
     }
   },
   "items": [
@@ -311,6 +335,50 @@
         {
           "monsterId": "pergorgon",
           "mapId": "lan N"
+        }
+      ]
+    },
+    {
+      "id": "luva_teia",
+      "name": "Luva Teia",
+      "imageUrl": "items/luva_teia.avif",
+      "drops": [
+        {
+          "monsterId": "tauron",
+          "mapId": "noatun"
+        }
+      ]
+    },
+    {
+      "id": "luva_embutida",
+      "name": "Luva Embutida",
+      "imageUrl": "items/luva_embutida.avif",
+      "drops": [
+        {
+          "monsterId": "tauron",
+          "mapId": "noatun"
+        }
+      ]
+    },
+    {
+      "id": "luva_mytril",
+      "name": "Luva Mytril",
+      "imageUrl": "items/luva_mytril.avif",
+      "drops": [
+        {
+          "monsterId": "tauron",
+          "mapId": "noatun"
+        }
+      ]
+    },
+    {
+      "id": "luva_elemental",
+      "name": "Luva Elemental",
+      "imageUrl": "items/luva_elemental.avif",
+      "drops": [
+        {
+          "monsterId": "tauron",
+          "mapId": "noatun"
         }
       ]
     }
