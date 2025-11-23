@@ -1,127 +1,48 @@
-[
-  {
-    "id": "vela_coveiro",
-    "name": "Vela do Coveiro",
-    "imageUrl": "items/vela_do_coveiro.avif",
-    "grade": "Mortal",
-    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
-    "extra": {},
-    "drops": [
-      {
-        "originType": "Monster",
-        "monsterName": "Porco",
-        "monsterType": "Normal",
-        "map": "Erion",
-        "dropRate": "Unknown"
-      }
-    ]
+{
+  "maps": {
+    "erion": { "name": "Erion", "imageUrl": "maps/erion.avif" },
+    "armia": { "name": "Armia", "imageUrl": "maps/armia.avif" }
   },
-  {
-    "id": "resto_oriharukon",
-    "name": "Resto de Oriharukon",
-    "imageUrl": "items/resto_de_ori.avif",
-    "grade": "Mortal",
-    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
-    "extra": {},
-    "drops": [
-      {
-        "originType": "Monster",
-        "monsterName": "Troll",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Troll Caçador",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Dragão Menor",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Meio Orc",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Orc Cavaleiro",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Orc Arqueiro",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Troll Caótico",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Troll Degen",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Troll Caído",
-        "monsterType": "Normal",
-        "map": "Erion"
-      }
-    ]
+  "monsters": {
+    "porco": {
+      "name": "Porco",
+      "type": "Normal",
+      "imageUrl": "monsters/porco.avif",
+      "defaultMapId": "erion"
+    },
+    "troll": {
+      "name": "Troll",
+      "type": "Normal",
+      "imageUrl": "monsters/troll.avif",
+      "defaultMapId": "erion"
+    },
+    "troll_cacador": {
+      "name": "Troll Caçador",
+      "type": "Normal",
+      "imageUrl": "monsters/troll_cacador.avif",
+      "defaultMapId": "erion"
+    }
   },
-  {
-    "id": "cristal_3",
-    "name": "Cristal III",
-    "imageUrl": "items/cristal.avif",
-    "grade": "Mortal",
-    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
-    "extra": {},
-    "drops": [
-      {
-        "originType": "Monster",
-        "monsterName": "Dragão Menor",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Meio Orc",
-        "monsterType": "Normal",
-        "map": "Erion"
-      },
-      {
-        "originType": "Monster",
-        "monsterName": "Orc Cavaleiro",
-        "monsterType": "Normal",
-        "map": "Erion"
-      }
-    ]
-  },
-  {
-    "id": "cristal_4",
-    "name": "Cristal IV",
-    "imageUrl": "items/cristal.avif",
-    "grade": "Mortal",
-    "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
-    "extra": {},
-    "drops": [
-      {
-        "originType": "Monster",
-        "monsterName": "Orc Arqueiro",
-        "monsterType": "Normal",
-        "map": "Erion"
-      }
-    ]
-  }
-]
+  "items": [
+    {
+      "id": "vela_coveiro",
+      "name": "Vela do Coveiro",
+      "imageUrl": "items/vela_do_coveiro.avif",
+      "grade": "Mortal",
+      "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+      "drops": [{ "monsterId": "porco" }]
+    },
+    {
+      "id": "resto_oriharukon",
+      "name": "Resto de Oriharukon",
+      "imageUrl": "items/resto_de_ori.avif",
+      "grade": "Mortal",
+      "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+      "drops": [
+        { "monsterId": "troll" },
+        { "monsterId": "troll_cacador" },
+        { "monsterId": "troll", "mapId": "armia", "rate": "Low" }
+      ]
+    }
+  ]
+}
