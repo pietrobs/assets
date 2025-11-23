@@ -1,26 +1,151 @@
 {
   "maps": {
-    "erion": { "name": "Erion", "imageUrl": "maps/erion.avif" },
-    "armia": { "name": "Armia", "imageUrl": "maps/armia.avif" }
+    "erion": {
+      "name": "Erion",
+      "imageUrl": "maps/erion.avif"
+    },
+    "lan N": {
+      "name": "Lan N",
+      "imageUrl": "maps/lan.avif"
+    }
   },
   "monsters": {
     "porco": {
       "name": "Porco",
       "type": "Normal",
       "imageUrl": "monsters/porco.avif",
+      "itemDrops": [
+        {
+          "itemId": "vela_coveiro"
+        }
+      ],
       "defaultMapId": "erion"
     },
     "troll": {
       "name": "Troll",
       "type": "Normal",
       "imageUrl": "monsters/troll.avif",
+      "itemDrops": [
+        {
+          "itemId": "resto_de_ori"
+        }
+      ],
       "defaultMapId": "erion"
     },
     "troll_cacador": {
       "name": "Troll Caçador",
       "type": "Normal",
       "imageUrl": "monsters/troll_cacador.avif",
+      "itemDrops": [
+        {
+          "itemId": "resto_de_ori"
+        }
+      ],
       "defaultMapId": "erion"
+    },
+    "perspider": {
+      "name": "PerSpider",
+      "type": "Normal",
+      "imageUrl": "monsters/aranha.avif",
+      "itemDrops": [
+        {
+          "itemId": "resto_de_lac"
+        },
+        {
+          "itemId": "amago_leve_n"
+        },
+        {
+          "itemId": "classe_d"
+        },
+        {
+          "itemId": "resto_de_ori"
+        },
+        {
+          "itemId": "adamantita"
+        },
+        {
+          "itemId": "barra_prata_10kk"
+        }
+      ],
+      "defaultMapId": "lan N"
+    },
+    "pergargoil": {
+      "name": "PerGagoil",
+      "type": "Normal",
+      "imageUrl": "monsters/gargula.avif",
+      "itemDrops": [
+        {
+          "itemId": "resto_de_lac"
+        },
+        {
+          "itemId": "amago_leve_b"
+        },
+        {
+          "itemId": "classe_d"
+        },
+        {
+          "itemId": "resto_de_ori"
+        },
+        {
+          "itemId": "adamantita"
+        },
+        {
+          "itemId": "barra_prata_10kk"
+        }
+      ],
+      "defaultMapId": "lan N"
+    },
+    "perknight": {
+      "name": "PerKnight",
+      "type": "Normal",
+      "imageUrl": "monsters/gargula.avif",
+      "itemDrops": [
+        {
+          "itemId": "resto_de_lac"
+        },
+        {
+          "itemId": "amago_leve_b"
+        },
+        {
+          "itemId": "classe_d"
+        },
+        {
+          "itemId": "resto_de_ori"
+        },
+        {
+          "itemId": "adamantita"
+        },
+        {
+          "itemId": "barra_prata_10kk"
+        }
+      ],
+      "defaultMapId": "lan N"
+    },
+    "pergorgon": {
+      "name": "PerGorgon",
+      "type": "Normal",
+      "imageUrl": "monsters/morlock.avif",
+      "itemDrops": [
+        {
+          "itemId": "resto_de_lac"
+        },
+        {
+          "itemId": "amago_leve_n"
+        },
+        {
+          "itemId": "classe_d"
+        },
+        {
+          "itemId": "resto_de_ori"
+        },
+        {
+          "itemId": "adamantita"
+        },
+        {
+          "itemId": "barra_prata_10kk"
+        }
+      ],
+      "defaultMapId": "lan N"
     }
   },
   "items": [
@@ -29,19 +154,164 @@
       "name": "Vela do Coveiro",
       "imageUrl": "items/vela_do_coveiro.avif",
       "grade": "Mortal",
-      "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
-      "drops": [{ "monsterId": "porco" }]
+      "drops": [
+        {
+          "monsterId": "porco",
+          "mapId": "erion"
+        }
+      ]
     },
     {
-      "id": "resto_oriharukon",
+      "id": "resto_de_ori",
       "name": "Resto de Oriharukon",
       "imageUrl": "items/resto_de_ori.avif",
-      "grade": "Mortal",
-      "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
       "drops": [
-        { "monsterId": "troll" },
-        { "monsterId": "troll_cacador" },
-        { "monsterId": "troll", "mapId": "armia", "rate": "Low" }
+        {
+          "monsterId": "troll",
+          "mapId": "erion"
+        },
+        {
+          "monsterId": "troll_cacador",
+          "mapId": "erion"
+        },
+        {
+          "monsterId": "perspider",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergargoil",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "perknight",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergorgon",
+          "mapId": "lan N"
+        }
+      ]
+    },
+    {
+      "id": "resto_de_lac",
+      "name": "Resto de Lactolerium",
+      "imageUrl": "items/resto_de_lac.avif",
+      "drops": [
+        {
+          "monsterId": "perspider",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergargoil",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "perknight",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergorgon",
+          "mapId": "lan N"
+        }
+      ]
+    },
+    {
+      "id": "classe_d",
+      "name": "Classe D",
+      "imageUrl": "items/replation_d.avif",
+      "drops": [
+        {
+          "monsterId": "perspider",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergargoil",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "perknight",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergorgon",
+          "mapId": "lan N"
+        }
+      ]
+    },
+    {
+      "id": "adamantita",
+      "name": "Adamantita",
+      "imageUrl": "items/adamantita.avif",
+      "drops": [
+        {
+          "monsterId": "perspider",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergargoil",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "perknight",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergorgon",
+          "mapId": "lan N"
+        }
+      ]
+    },
+    {
+      "id": "amago_leve_b",
+      "name": "Âmago Cavalo Leve B",
+      "imageUrl": "items/amago_cavalo_b.avif",
+      "drops": [
+        {
+          "monsterId": "pergargoil",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "perknight",
+          "mapId": "lan N"
+        }
+      ]
+    },
+    {
+      "id": "amago_leve_n",
+      "name": "Âmago Cavalo Leve N",
+      "imageUrl": "items/amago_cavalo_n.avif",
+      "drops": [
+        {
+          "monsterId": "perspider",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergorgon",
+          "mapId": "lan N"
+        }
+      ]
+    },
+    {
+      "id": "barra_prata_10kk",
+      "name": "Barra de Prata(10Mi)",
+      "imageUrl": "items/barra_de_prata.avif",
+      "drops": [
+        {
+          "monsterId": "perspider",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergargoil",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "perknight",
+          "mapId": "lan N"
+        },
+        {
+          "monsterId": "pergorgon",
+          "mapId": "lan N"
+        }
       ]
     }
   ]

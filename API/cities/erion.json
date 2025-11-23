@@ -1,0 +1,25 @@
+{
+  "id": "erion",
+  "name": "Erion",
+  "imageUrl": "maps/erion.avif",
+  "monsters": {
+    "porco": {
+      "name": "Porco",
+      "type": "Normal",
+      "imageUrl": "monsters/porco.avif",
+      "itemDrops": [{ "itemId": "vela_coveiro" }]
+    },
+    "troll": {
+      "name": "Troll",
+      "type": "Normal",
+      "imageUrl": "monsters/troll.avif",
+      "itemDrops": [{ "itemId": "resto_de_ori" }]
+    },
+    "troll_cacador": {
+      "name": "Troll Caçador",
+      "type": "Normal",
+      "imageUrl": "monsters/troll_cacador.avif",
+      "itemDrops": [{ "itemId": "resto_de_ori" }]
+    }
+  }
+}

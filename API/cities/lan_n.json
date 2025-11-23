@@ -1,0 +1,59 @@
+{
+  "id": "lan N",
+  "name": "Lan N",
+  "imageUrl": "maps/lan.avif",
+  "monsters": {
+    "perspider": {
+      "name": "PerSpider",
+      "type": "Normal",
+      "imageUrl": "monsters/aranha.avif",
+      "itemDrops": [
+        { "itemId": "resto_de_lac" },
+        { "itemId": "amago_leve_n" },
+        { "itemId": "classe_d" },
+        { "itemId": "resto_de_ori" },
+        { "itemId": "adamantita" },
+        { "itemId": "barra_prata_10kk" }
+      ]
+    },
+    "pergargoil": {
+      "name": "PerGagoil",
+      "type": "Normal",
+      "imageUrl": "monsters/gargula.avif",
+      "itemDrops": [
+        { "itemId": "resto_de_lac" },
+        { "itemId": "amago_leve_b" },
+        { "itemId": "classe_d" },
+        { "itemId": "resto_de_ori" },
+        { "itemId": "adamantita" },
+        { "itemId": "barra_prata_10kk" }
+      ]
+    },
+    "perknight": {
+      "name": "PerKnight",
+      "type": "Normal",
+      "imageUrl": "monsters/gargula.avif",
+      "itemDrops": [
+        { "itemId": "resto_de_lac" },
+        { "itemId": "amago_leve_b" },
+        { "itemId": "classe_d" },
+        { "itemId": "resto_de_ori" },
+        { "itemId": "adamantita" },
+        { "itemId": "barra_prata_10kk" }
+      ]
+    },
+    "pergorgon": {
+      "name": "PerGorgon",
+      "type": "Normal",
+      "imageUrl": "monsters/morlock.avif",
+      "itemDrops": [
+        { "itemId": "resto_de_lac" },
+        { "itemId": "amago_leve_n" },
+        { "itemId": "classe_d" },
+        { "itemId": "resto_de_ori" },
+        { "itemId": "adamantita" },
+        { "itemId": "barra_prata_10kk" }
+      ]
+    }
+  }
+}

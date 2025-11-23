@@ -1,0 +1,49 @@
+{
+  "maps": {
+    "erion": { "name": "Erion", "imageUrl": "maps/erion.avif" },
+    "armia": { "name": "Armia", "imageUrl": "maps/armia.avif" },
+    "lan N": { "name": "Lan N", "imageUrl": "maps/lan.avif" }
+  },
+  "monsters": {
+    "porco": {
+      "name": "Porco",
+      "type": "Normal",
+      "imageUrl": "monsters/porco.avif",
+      "defaultMapId": "erion"
+    },
+    "troll": {
+      "name": "Troll",
+      "type": "Normal",
+      "imageUrl": "monsters/troll.avif",
+      "defaultMapId": "erion"
+    },
+    "troll_cacador": {
+      "name": "Troll Caçador",
+      "type": "Normal",
+      "imageUrl": "monsters/troll_cacador.avif",
+      "defaultMapId": "erion"
+    }
+  },
+  "items": [
+    {
+      "id": "vela_coveiro",
+      "name": "Vela do Coveiro",
+      "imageUrl": "items/vela_do_coveiro.avif",
+      "grade": "Mortal",
+      "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+      "drops": [{ "monsterId": "porco" }]
+    },
+    {
+      "id": "resto_oriharukon",
+      "name": "Resto de Oriharukon",
+      "imageUrl": "items/resto_de_ori.avif",
+      "grade": "Mortal",
+      "classes": ["Foema", "Huntress", "Beast Master", "TransKnight"],
+      "drops": [
+        { "monsterId": "troll" },
+        { "monsterId": "troll_cacador" },
+        { "monsterId": "troll", "mapId": "armia", "rate": "Low" }
+      ]
+    }
+  ]
+}

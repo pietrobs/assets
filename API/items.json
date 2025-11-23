@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "id": "vela_coveiro",
+      "name": "Vela do Coveiro",
+      "imageUrl": "items/vela_do_coveiro.avif",
+      "grade": "Mortal"
+    },
+    {
+      "id": "resto_de_ori",
+      "name": "Resto de Oriharukon",
+      "imageUrl": "items/resto_de_ori.avif"
+    },
+    {
+      "id": "resto_de_lac",
+      "name": "Resto de Lactolerium",
+      "imageUrl": "items/resto_de_lac.avif"
+    },
+    {
+      "id": "classe_d",
+      "name": "Classe D",
+      "imageUrl": "items/replation_d.avif"
+    },
+    {
+      "id": "adamantita",
+      "name": "Adamantita",
+      "imageUrl": "items/adamantita.avif"
+    },
+    {
+      "id": "resto_de_lac",
+      "name": "Resto de Lactolerium",
+      "imageUrl": "items/resto_de_lac.avif"
+    },
+    {
+      "id": "amago_leve_b",
+      "name": "Âmago Cavalo Leve B",
+      "imageUrl": "items/amago_cavalo_b.avif"
+    },
+    {
+      "id": "amago_leve_n",
+      "name": "Âmago Cavalo Leve N",
+      "imageUrl": "items/amago_cavalo_n.avif"
+    },
+    {
+      "id": "barra_prata_10kk",
+      "name": "Barra de Prata(10Mi)",
+      "imageUrl": "items/barra_de_prata.avif"
+    }
+  ]
+}
